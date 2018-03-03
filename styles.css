@@ -1,0 +1,88 @@
+header {
+    font-family: 'Garamond', Garamond;
+    color: #fff;
+    background: #000;
+}
+
+body {
+    padding: 20px 0px;
+    background-color: #c6c2c6;
+}
+
+h4 {
+    font-family: 'Gadget', Gadget;
+    color: #000;
+    size: 6;
+}
+
+hr {
+    border: 2px solid #421403;
+}
+
+.project-text {
+    color: white;
+}
+
+.project-title {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.thumbnail{
+    background-color: black;
+    font-size: bold;
+}
+
+#main{
+    margin-top: 20px;
+}
+
+#protfolio{
+    border: none;
+    background: none;
+    color: #000;
+}
+
+.footer{
+    font-family: 'cursive', cursive;
+    text-align: right;
+    color: #000;
+}
+.project {
+    text-align: center;
+}
+
+.profile-name {
+    font-weight: bold;
+    text-align: right;
+}
+
+.profile-title {
+    text-align: right;
+}
+
+.col-md-6 img{
+    width:25%;
+}
+.profile-picture{
+    border-radius: 0;
+}
+.name {
+    background: #1b366d;
+}
+@media screen and (max-width: 992px) {
+    .profile-name {
+        text-align: center;
+    }
+    .profile-title {
+        text-align: center;
+    }
+    .profile-picture {
+        margin: auto;
+        display: block;
+    }
+    .container {
+        text-align: center;
+    }
+}
